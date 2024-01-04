@@ -10,6 +10,5 @@
 - !pip install -q transformers
 - !CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install  llama-cpp-python --no-cache-dir # remove args to work in cpu
 - !pip install -q llama-index
-- !pip install -q llama-index
 - !pip -q install sentence-transformers
 ```

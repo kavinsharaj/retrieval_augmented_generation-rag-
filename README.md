@@ -6,7 +6,7 @@
 - Filter most suitable application or resume using retrieval augemented generation leveraging mistral-7b.
 
 - # Requirements
-- ```python
+ ```python
 - !pip install -q transformers
 - !CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 pip install  llama-cpp-python --no-cache-dir # remove args for working in cpu
 - !pip install -q llama-index
